@@ -1,0 +1,45 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:gravity="center_horizontal"
+		android:orientation="vertical">
+		<ImageView
+			android:id="@+id/imageview1"
+			android:focusable="false"
+			android:layout_width="300dp"
+			android:layout_height="175dp"
+			android:src="@drawable/development"
+			android:scaleType="fitXY"/>
+		<TextView
+			android:id="@+id/textview1"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:background="#1565C0"
+			android:gravity="center_horizontal|center_vertical"
+			android:text="Sedang Dalam Pengembangan"
+			android:textSize="25sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"/>
+		<Button
+			android:id="@+id/button1"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="CLOSE"
+			android:textSize="12sp"
+			android:textStyle="bold"
+			android:textColor="#E91E63"/>
+	</LinearLayout>
+</LinearLayout>
